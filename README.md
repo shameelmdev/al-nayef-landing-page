@@ -1,32 +1,64 @@
-﻿# Al-nayef Landing (React + Vite)
+﻿# Al Nayef Group Landing Page
 
-Minimal responsive landing page built with React and Vite.
+A responsive corporate landing page developed using React and Vite as part of a frontend technical assessment for Al Nayef Group.
 
-Quick start:
+## Features
 
-1. Install dependencies
+- Responsive and modern landing page
+- Component-based React architecture
+- Company overview and business services
+- Contact form with Google Sheets integration
+- Client-side form validation
+- Loading and success/error notifications
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- Google Apps Script
+- Google Sheets
+
+## Project Structure
+
+```
+src/
+apps-script/
+public/
+```
+
+## Running Locally
 
 ```bash
 npm install
-```
-
-2. Add your Google Apps Script Web App URL to `.env`:
-
-```
-VITE_SHEET_ENDPOINT=https://script.google.com/macros/s/XXX/exec
-```
-
-3. Run dev server
-
-```bash
 npm run dev
 ```
 
-Build for production:
+## Production Build
 
 ```bash
 npm run build
-npm run preview
 ```
 
-Google Sheets: See `apps-script/code.gs` and `apps-script/README.md` for the script and deployment instructions.
+## Google Sheets Integration
+
+The contact form submits data to Google Sheets using Google Apps Script.
+
+Configure the Apps Script by following the instructions in:
+
+```text
+apps-script/README.md
+```
+
+Then set:
+
+```env
+VITE_SHEET_ENDPOINT=YOUR_GOOGLE_APPS_SCRIPT_URL
+```
+
+Restart the development server after updating the environment variable.
+
+## Notes
+
+The contact form submits data to Google Sheets through a Google Apps Script Web App. The Apps Script source is included in the `apps-script` folder for reference.

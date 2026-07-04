@@ -5,7 +5,7 @@ export default function Footer(){
     <footer className="footer footer-advanced">
       <div className="container footer-grid">
         <div className="footer-section footer-brand">
-          <img src="/src/assets/nayef_logo_dark.png" alt="Al Nayef Group logo" className="footer-logo" loading="lazy" />
+          <img src="/assets/nayef_logo_dark.png" alt="Al Nayef Group logo" className="footer-logo" loading="lazy" />
           <p>Al Nayef Group is a UAE-based diversified business group with a strong focus on quality, integrity and long-term client relationships.</p>
         </div>
         <div className="footer-section">

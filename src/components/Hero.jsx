@@ -12,7 +12,7 @@
           </div>
         </div>
         <div className="hero-visual">
-          <img src="/src/assets/about_us_background.jpg" alt="Abstract UAE corporate illustration" loading="lazy" />
+          <img src="/assets/about_us_background.jpg" alt="Abstract UAE corporate illustration" loading="lazy" />
         </div>
       </div>
     </header>

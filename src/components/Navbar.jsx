@@ -6,7 +6,7 @@ export default function Navbar(){
     <header className="nav">
       <div className="container nav-inner">
         <div className="brand">
-          <img src="/src/assets/nayef_logo_dark.png" alt="Al Nayef Group logo" className="logo" loading="lazy" />
+          <img src="/assets/nayef_logo_dark.png" alt="Al Nayef Group logo" className="logo" loading="lazy" />
         </div>
         <nav className={"nav-links " + (open? 'open':'') } aria-label="Main navigation">
           <a href="#about">Home</a>
